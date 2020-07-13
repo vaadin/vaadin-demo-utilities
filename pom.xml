@@ -3,9 +3,9 @@
 
     <groupId>org.vaadin.thomas</groupId>
     <artifactId>vaadincorner</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>VaadinCorner</name>
-    <description>Integration of paper-slider for Vaadin platform</description>
+    <version>0.1.0</version>
+    <name>StarterCornerAddon</name>
+    <description>Component that provides backlinks to Vaadin.com</description>
 
     <properties>
         <vaadin.version>14.3.0</vaadin.version>

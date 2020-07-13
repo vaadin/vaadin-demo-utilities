@@ -2,9 +2,9 @@
 /node_modules/
 package-lock.json
 package.json
-assembly
 webpack.config.js
 webpack.generated.js
 .classpath
 .project
 .settings/
+.DS_Store
