@@ -1,4 +1,4 @@
-package org.vaadin.thomas;
+package com.vaadin.example.corner;
 
 import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;

@@ -19,14 +19,14 @@ class VaadinCorner extends PolymerElement {
                     display: block;
 
         			position: absolute;
-        			top: 15px;
+        			top: 10px;
         			right: 0;
         			background-color: var(--widget-color);
 
-        			border-top-left-radius: 3px;
-        			border-bottom-left-radius: 3px;
+        			border-top-left-radius: 7px;
+        			border-bottom-left-radius: 7px;
 
-        			padding: 3px;
+        			padding: 9px;
         			padding-right: 10px;
 
         			color: #D8DDDE !important;
@@ -42,21 +42,25 @@ class VaadinCorner extends PolymerElement {
         			background-image: url(https://vaadin.com/images/vaadin-logo.svg);
         			background-size: 100px;
         			background-repeat: no-repeat;
-        			background-position-x: right;
+        			background-position-x: 6px;
         			background-position-y: 4px;
 
         			transition: height 0.2s, width 0.2s;
         			transition-timing-function: ease-in-out;
         			
         			padding: 3px;
+        			
+        			
+				    font-family: Montserrat, Verdana, sans‑serif;
+				    font-size: 11pt;
 
         		}
 
         		#wrapper {
         			display: none;
         			width: var(--widget-width);
-        			padding-top: 25px;
-        			padding-left: 10px;
+        			padding-top: 36px;
+        			padding-left: 4px;
         			transition: display 0.3s;
         		}
         
@@ -69,16 +73,28 @@ class VaadinCorner extends PolymerElement {
         		#content:hover, 
         		#content.initial {
         			width: var(--widget-width);
-        			height: 128px;
+        			height:94px;
         		}
 
         		#wrapper a, 
         		#wrapper a:visited, 
         		#wrapper a:active, 
         		#wrapper a:focus {
-        			color: var(--lumo-primary-color);
+        			color: #FFFFFF;
+        			font-weight: bold;
+				    text-decoration: none;
         		}
-
+        		
+        		#wrapper a.right {
+        			float: right;
+        			padding-right: 10px;
+        		} 
+        		
+        		#wrapper img {
+        			vertical-align: text-bottom;
+        			margin-top: 10px;
+        		}    
+        		
         		/* Style overrides for smaller devices */
         		@media (max-width: 600px) {
 
@@ -92,19 +108,23 @@ class VaadinCorner extends PolymerElement {
         				width: 16px;
         				height: 24px;
         				
+        				background-position-x: right;
+        			
         				border-left: 4px solid var(--widget-color);
         				
+				    	font-size: 10pt;
         			}
 
         			#wrapper {
         				width: var(--widget-width-phone);
-        				padding-top: 25px;
+        				padding-top: 35px;
         				padding-left: 10px;
         			}
         				
         			#content:hover, 
        				#content.initial {
        					border-left: none;
+        				background-position-x: 12px;
         					
        					width: var(--widget-width-phone);
        				}
@@ -114,14 +134,10 @@ class VaadinCorner extends PolymerElement {
 
  <div id="content">
         <div id="wrapper">
-        	This is an example application made with Vaadin.
+        	This is an example application made with <a href='https://vaadin.com' target='_blank'>Vaadin</a> 
         	<br/>
-            <p>
-        		Please visit <a href='https://vaadin.com' target='_blank'>Vaadin.com</a> for more
-        		<a href='https://vaadin.com/start' target='_blank'>examples</a> 
-        		<br/>
-        		or to read the <a href='https://vaadin.com/docs' target='_blank'>documentation<a/>.
-        	</p>
+        		<a href='https://vaadin.com/start' target='_blank'>More examples <img src='frontend/external-link-alt-solid-white.svg' width='20px'></a> 
+        		<a href='https://vaadin.com/docs' target='_blank' class='right'>Documentation <img src='frontend/external-link-alt-solid-white.svg' width='20px'</a>
         </div>
 </div>
 `;

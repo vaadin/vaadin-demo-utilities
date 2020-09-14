@@ -1,5 +1,6 @@
 package org.vaadin.thomas;
 
+import com.vaadin.example.corner.VaadinCorner;
 import com.vaadin.flow.component.html.Div;
 import com.vaadin.flow.router.Route;
 
