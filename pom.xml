@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.vaadin.thomas</groupId>
+    <groupId>com.vaadin.example.corner</groupId>
     <artifactId>vaadincorner</artifactId>
-    <version>0.1.0</version>
-    <name>StarterCornerAddon</name>
+    <version>1.0.0</version>
+    <name>Vaadin Corner Helper</name>
     <description>Component that provides backlinks to Vaadin.com</description>
 
     <properties>
@@ -18,7 +18,7 @@
         <jetty.version>9.4.28.v20200408</jetty.version>
     </properties>
     <organization>
-        <name>Thomas Mattsson</name>
+        <name>Vaadin</name>
     </organization>
     <licenses>
         <license>
