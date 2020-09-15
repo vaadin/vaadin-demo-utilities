@@ -32,6 +32,8 @@ class VaadinCorner extends PolymerElement {
         			color: #D8DDDE !important;
 
         			overflow: hidden;
+
+        			z-index: 1000;
                 }
 
         		#content {
