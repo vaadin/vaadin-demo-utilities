@@ -1,8 +1,8 @@
-# Vaadin Conrner
+# Vaadin Demo Utilities
 
-Simple template-based custom component that shows links to Vaadin.com in the top right corner.
+Utility classes and components used in Vaadin live demo applications. Includes a simple template-based custom component that shows links to Vaadin.com in the top right corner.
 
-Used in Vaadin examples at https://vaadin.com/start.
+Find Vaadin examples applications at https://vaadin.com/start.
 
 ## Development instructions
 
