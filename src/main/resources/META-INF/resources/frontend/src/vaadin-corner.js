@@ -3,8 +3,9 @@ import '@vaadin/vaadin-lumo-styles/color.js';
 import '@vaadin/vaadin-lumo-styles/typography.js';
 import '@vaadin/vaadin-lumo-styles/sizing.js';
 import '@vaadin/vaadin-lumo-styles/spacing.js';
+import { ElementMixin } from '@vaadin/vaadin-element-mixin/vaadin-element-mixin.js';
 
-class VaadinCorner extends PolymerElement {
+class VaadinCorner extends ElementMixin(PolymerElement) {
 
     static get template() {
         return html`
@@ -34,6 +35,16 @@ class VaadinCorner extends PolymerElement {
         			overflow: hidden;
 
         			z-index: 1000;
+                }
+
+                :host([dir="rtl"]) {
+                    right: auto;
+                    left: 0;
+                    border-bottom-right-radius: 7px;
+                    border-top-right-radius: 7px;
+                    border-top-left-radius: 0;
+                    border-bottom-left-radius: 0;
+                    direction: ltr;
                 }
 
         		#content {

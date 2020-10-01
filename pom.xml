@@ -3,7 +3,7 @@
 
     <groupId>com.vaadin.example</groupId>
     <artifactId>vaadin-demo-utilities</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <name>Vaadin Demo Utilities</name>
     <description>Components and helpers for Vaadin example applications. Not intended to be used elsewhere. </description>
 
