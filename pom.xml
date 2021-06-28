@@ -8,7 +8,7 @@
     <description>Components and helpers for Vaadin example applications. Not intended to be used elsewhere. </description>
 
     <properties>
-        <vaadin.version>14.3.0</vaadin.version>
+        <vaadin.version>14.6.2</vaadin.version>
 
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
